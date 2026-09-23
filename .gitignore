@@ -1,1 +1,9 @@
+# Сборка
 out/
+
+# Настройки IntelliJ IDEA — у каждого свои
+.idea/
+*.iml
+
+# macOS
+.DS_Store

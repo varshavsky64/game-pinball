@@ -13,7 +13,8 @@ javac -d out src/pinball/*.java
 java -cp out pinball.Main
 ```
 
-In IntelliJ IDEA: open the project, set the SDK to JDK 21 and run `pinball.Main`.
+In IntelliJ IDEA: open the folder, set the project SDK to JDK 21, mark `src` as *Sources Root*
+(right-click → *Mark Directory as*) and run `pinball.Main`.
 
 The window fits itself to the screen and can be resized — the picture scales. The high score is kept
 between runs (`java.util.prefs`).
